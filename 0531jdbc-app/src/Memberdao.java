@@ -1,9 +1,7 @@
-import java.sql.Connection;
 
 public class Memberdao {
-	public Connection getConnection(){
-		Connection conn = null;
-		return conn;
-		
+	
+	public Member selectMemberById(String id){
+		return null;
 	}
 }
